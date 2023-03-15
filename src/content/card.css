@@ -1,0 +1,26 @@
+.card {
+    width: 35rem;
+    border-radius: 8px;
+    margin: 20px;
+    background-color: #edeaf0;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 10px;
+}
+.card-body h5{
+    font-size : 20px;
+    font-weight: 380;
+    
+}
+
+.card-body p{
+    font-size : 20px;
+    font-weight: 150;
+}

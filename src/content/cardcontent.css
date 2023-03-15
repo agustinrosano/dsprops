@@ -1,0 +1,27 @@
+h2 {
+    font-size: 50px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: rgb(36, 32, 54);
+
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(36, 32, 54);
+
+}
+
+
+.content {
+    margin: 25px;
+    display: flex;
+}

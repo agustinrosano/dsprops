@@ -1,0 +1,24 @@
+.banner {
+    position: relative;
+   
+    height: 70vh;
+    background:url(../img/city.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+.banner  h1 {
+    font-size: 3em;
+    position: center;
+    color: #ffffff;
+    font-weight:500;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+
+

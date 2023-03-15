@@ -1,0 +1,87 @@
+header {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#000;
+
+}
+
+header .logo 
+{
+   color: #fff;
+   font-size: 24px;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 400;
+   letter-spacing: 2px;
+}
+
+
+header ul {
+    position : relative;
+    display: flex;
+ }
+
+header ul li {
+    position: relative;
+    color: #fff;
+    list-style:none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+
+} 
+
+
+
+.pre-header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background:#031c38;
+}
+
+.pre-header ul {
+    position : relative;
+    display: flex;
+ }
+
+ .pre-header ul li {
+    position: relative;
+    color: #fff;
+    list-style:none;
+}
+
+.pre-header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+
+} 
+
+.pre-header ul li a i {
+    font-size: 20px;
+}
+
+
+@media (max-width: 800px) {
+    .pre-header { display: none;}
+}
